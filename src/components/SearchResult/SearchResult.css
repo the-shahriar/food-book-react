@@ -1,0 +1,9 @@
+.results{
+    margin: 50px;
+    justify-items: center;
+    color: white;
+}
+
+.results h4{
+    color: white;
+}

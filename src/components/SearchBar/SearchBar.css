@@ -1,0 +1,63 @@
+.main{
+    background-color: black;
+    opacity: .7;
+    background-image: url(../../images/cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.search-bar{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-bar input{
+   width: 60%;
+   padding: 10px;
+}
+
+.search-btn{
+    position: absolute;
+    right: 20%;
+    padding: 10px;
+    background-color: wheat;
+}
+
+.overlay{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+.search-result{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    justify-items: center;
+    padding-top: 30px;
+    background-color: #2D2013;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-result{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .search-bar input{
+        width: 85%;
+        padding: 10px;
+     }
+
+     .search-btn{
+        position: absolute;
+        right: 5%;
+        padding: 10px;
+        background-color: wheat;
+    }
+}

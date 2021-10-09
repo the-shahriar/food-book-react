@@ -1,0 +1,22 @@
+.meals-container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.meals-container h2{
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    width: 30%;
+    margin: auto;
+}
+
+.meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    margin-top: 60px;
+
+}

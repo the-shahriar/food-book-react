@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#2D2013;
+    height: 70px;
+    padding: 0 0 20px 0;
+}
+.brand img{
+    height: 140px;
+    margin-top: -20px;
+}
+.menu{
+    margin-top: 30px;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(29, 52, 56);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
